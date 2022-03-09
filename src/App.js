@@ -1,17 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
-import background from '../background.png';
+
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Main from './components/Main/Main';
 
 function App() {
   return (
-  <main className="App" style={{ backgroundImage: `url(${background})` }}></main>
-    <div className="App-div">
-      <header className="App-header"></header>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-    
+    <div className="App">
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
