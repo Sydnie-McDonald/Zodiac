@@ -4,8 +4,8 @@ import background from '../background.png';
 
 function App() {
   return (
-  <main className="main" style={{ backgroundImage: `url(${background})` }}></main>
-    <div className="App">
+  <main className="App" style={{ backgroundImage: `url(${background})` }}></main>
+    <div className="App-div">
       <header className="App-header"></header>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
