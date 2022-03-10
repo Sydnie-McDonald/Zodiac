@@ -1,6 +1,6 @@
-import Zodiac from '../Zodiac/Zodiac';
-import './Main.css';
-import { zodiacs } from '../data';
+import Zodiac from '../Zodiac/zodiac';
+import './main.css';
+import { zodiacs } from '../../data';
 
 import background from '../../background.png';
 
