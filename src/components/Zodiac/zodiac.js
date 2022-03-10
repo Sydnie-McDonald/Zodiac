@@ -1,11 +1,11 @@
-import './zodiac.css';
+import './Zodiac.css';
 
-export default function Zodiac(props) {
+export default function Zodiac({ name, dates }) {
   return (
-    <div>
-      <img src={`${process.env.PUBLIC_URL}/zodiacs/${props.name}.png`} />
-      <span>{props.name}</span>
-      <p>{props.dates}</p>
+    <div className="sign">
+      <img src={`${process.env.PUBLIC_URL}/zodiacs/${name}.png`} />
+      <span>{name}</span>
+      <span>{dates}</span>
     </div>
   );
 }

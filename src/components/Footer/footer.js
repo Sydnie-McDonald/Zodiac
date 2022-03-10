@@ -1,9 +1,5 @@
-import React from 'react';
 import './Footer.css';
 
 export default function Footer() {
-  return (<footer>Copyright Sydnie McDonald Alchemy Codelab 2022</footer>
-
-
-  );
+  return (<footer className="footer">Sydnie McDonald @ Alchemy 2022</footer>);
 }
