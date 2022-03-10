@@ -20,22 +20,22 @@ export const zodiacs = [
     dates: '(June 21 – July 22)',
   },
   {
-    name: 'Leo ',
+    name: 'Leo',
     type: 'leo',
     dates: '(July 23 – August 22)',
   },
   {
-    name: 'Virgo ',
+    name: 'Virgo',
     type: 'virgo',
     dates: '(August 23 – September 22)',
   },
   {
-    name: 'Libra ',
+    name: 'Libra',
     type: 'libra',
     dates: '(September 23 – October 22)',
   },
   {
-    name: 'Scorpio ',
+    name: 'Scorpio',
     type: 'scorpio',
     dates: '(October 23 – November 21)',
   },
