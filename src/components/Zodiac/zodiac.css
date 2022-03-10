@@ -1,9 +1,7 @@
-footer {
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    height: 20px;
-    color: white;
-    background-color: black;
-    width: 100%;
-}
+.container {
+    background-color: whitesmoke;
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+    color: #ff0000;
+  }

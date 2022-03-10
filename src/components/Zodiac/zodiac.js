@@ -2,10 +2,10 @@ import './Zodiac.css';
 
 export default function Zodiac({ name, dates }) {
   return (
-    <div className="sign">
+    <div className="container">
       <img src={`${process.env.PUBLIC_URL}/zodiacs/${name}.png`} />
-      <span>{name}</span>
-      <span>{dates}</span>
+      <h2>{name}</h2>
+      <p>{dates}</p>
     </div>
   );
 }
