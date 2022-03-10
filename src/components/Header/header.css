@@ -1,0 +1,10 @@
+header {
+    top: 0;
+    height: 100%;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 800;
+    color: white;
+}
